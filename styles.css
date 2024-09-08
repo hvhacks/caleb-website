@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.header {
+    background-color: #2D2D33;
+    border: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #57575c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.header p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+    color: white
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2024;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #57575c;
+}
+
+
+
+.banner p {
+    color: white;
+    font-size: 20px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    
+}
+
+.bio ul {
+    list-style-type: none;
+}
+
+.bio h3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+.bio p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-wrap: wrap;
+    
+}
+
+.icon-container {
+
+}
+
+.icon {
+    font-size: 10px;
+}
+
+.profile {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.profile p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    text-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.profile img {
+    height: auto;
+    width: 200px;
+
+}
+
+body {
+    background-color: #2D2D33;
+}
+
+
+body p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color:white;
+    margin-bottom: 0;
+
+}
+
+.content h5 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color:white;
+    margin-top: 0;
+    margin-bottom: 40px;
+
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    background-color: #1F2024;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: #57575c;
+    color: white;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.project h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    text-wrap: nowrap;
+    margin-right: 20px;
+}
+
+
+.project p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.project-title {
+    display: flex;
+    align-items: center;
+
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+}
+
+button {
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+    background-color: rgb(192, 192, 192);
+    color:black;
+    margin: 10px;
+    margin-top: 20px;;
+    border: 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(114, 114, 114);
+}
+
+.emoji {
+    font-size: 50px;
+    font-weight: 300;
+}
